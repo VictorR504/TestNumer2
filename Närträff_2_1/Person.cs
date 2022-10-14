@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
+using Program;
    
 
 namespace Närträff_2_1
@@ -19,6 +20,10 @@ namespace Närträff_2_1
             this.namn = namn;
             this.adress = adress;
             this.tele = tele;
+        }
+        public Person()
+        {
+
         }
         public string Name
         {

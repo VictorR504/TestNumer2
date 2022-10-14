@@ -125,9 +125,11 @@ namespace Program
             }
             while (input != "7");
         }
-        static void Main(string[] args)
+        static void Main(string[] args )
         {
-            
+            Person person = new Person();
+            person.AddDynamiskPerson();
+            person.PrintListDynamik();
             Run();
         }
     }
