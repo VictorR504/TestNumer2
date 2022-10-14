@@ -24,7 +24,7 @@ namespace Program
             WriteLine("[2] DISPLAY CONTACT");
             WriteLine("[6] DISPLAY DYNAMIK");
             WriteLine("[3] REMOVE CONTACT");
-            WriteLine("[4] EXIT");
+            WriteLine("[7] EXIT");
 
         }
      
