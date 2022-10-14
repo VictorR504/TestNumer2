@@ -87,6 +87,7 @@ namespace Program
         {
 
             Person[] persons = new Person[10];
+            Person person = new Person();
             string input;
             StartLogo();
             OptionMenu();
@@ -115,6 +116,13 @@ namespace Program
                 }
                 else if (input == "5")
                 {
+                    
+                    person.AddDynamiskPerson();
+                }
+                else if (input == "6")
+                {
+                    
+                    person.PrintListDynamik();
                 }
                 else
                 {
@@ -127,7 +135,6 @@ namespace Program
         }
         static void Main(string[] args)
         {
-            
             Run();
         }
     }
