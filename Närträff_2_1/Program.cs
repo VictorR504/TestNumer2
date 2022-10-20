@@ -20,7 +20,6 @@ namespace Program
         static void OptionMenu()
         {
             WriteLine("[1] ADD CONTACT");
-            WriteLine("[5] ADD DYNAMIK");
             WriteLine("[2] DISPLAY CONTACT");
             WriteLine("[6] DISPLAY DYNAMIK");
             WriteLine("[3] REMOVE CONTACT");
